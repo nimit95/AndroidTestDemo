@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/nimit95/AndroidTestDemo.svg?branch=master)](https://travis-ci.org/nimit95/AndroidTestDemo)
