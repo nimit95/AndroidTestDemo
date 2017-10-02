@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codingblocks.testing.MainActivity">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/etkm"
+            android:hint="kilometers"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/etmin"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="minutes"/>
+        <Button
+            android:layout_width="match_parent"
+            android:text="Calculate"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCalcFare"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/result"
+            android:text="RESULT"
+            />
+    </LinearLayout>
+
+</FrameLayout>
